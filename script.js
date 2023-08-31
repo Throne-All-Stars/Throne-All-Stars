@@ -8,8 +8,8 @@ fetch(charBio)
     const ul = document.getElementById("Name")
     
     character.forEach(character => {
-        const favs = document.createElement('Favorites');
-        const anchor = documen.createElement('anc');
+        const favs = document.createElement('Favorites-List');
+        const anchor = document.createElement('anc');
         anchor.href = character.url;
         anchor.TextContent = character.name;
         
@@ -18,6 +18,6 @@ fetch(charBio)
     });
 })
 .catch(error => {
-    console.error("Error fetching data:", error);
+    console.error("Error: ", error);
 });
 }
