@@ -20,7 +20,7 @@ function fetchCharacters() {
                 const img = document.createElement("img");
                 const name = document.createElement("p");
 
-                console.log("full name:", element.fullName);
+                // console.log("full name:", element.fullName);
 
                 img.src = element.imageUrl;
                 name.textContent = element.fullName; // Corrected line
@@ -47,7 +47,7 @@ function fetchCharacters() {
         });
 }
 
-console.log(fetchCharacters())
+fetchCharacters()
 
 // function fetchFavorites() {
 //     fetch(charBio)
@@ -72,6 +72,6 @@ console.log(fetchCharacters())
 //         });
 // }
 
-fetchFavorites()
+// fetchFavorites()
 
 // console.log(fetchFavorites)
