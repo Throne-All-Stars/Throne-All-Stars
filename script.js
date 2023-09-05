@@ -4,7 +4,7 @@ function fetchCharacters() {
     fetch(charBio)
         .then((res) => res.json())
         .then((data) => {
-            const container = document.getElementById("character-gallery");
+            const container = document.getElementById("char-container");
 
             data.forEach(element => {
                 const div = document.createElement("div");
@@ -27,3 +27,4 @@ function fetchCharacters() {
 }
 
 fetchCharacters();
+
