@@ -1,4 +1,26 @@
-#character-gallery {
-    display: flex;
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#char-container {
+  	display: grid;
+  	grid-template-columns:repeat(4, 1fr);
+    grid-template-colums: auto;
+    grid-auto-row: 1 rem;
+    grip-column-gap: 20px;
+    grid-gap: 1rem;
+}
+
+.grid {
+  background-color: #444;
+  color: #fff;
+  padding: 25px;
+  font-size: 3rem;
+}
+
+p {
     text-align: center;
+    padding: 13px;
 }
