@@ -46,5 +46,3 @@ function fetchCharacters() {
             console.error("Error: ", error);
         });
 }
-
-fetchCharacters()
