@@ -46,32 +46,3 @@ function fetchCharacters() {
             console.error("Error: ", error);
         });
 }
-
-fetchCharacters()
-
-// function fetchFavorites() {
-//     fetch(charBio)
-//         .then((res) => res.json())
-//         .then((data) => {
-//             const ul = document.getElementById("Favorites-list");
-
-//             for (let i = 0; i < 5; i++) {
-//                 const character = data[i];
-//                 const favs = document.createElement('li');
-//                 const anchor = document.createElement('a');
-//                 // anchor.href = character.url;
-//                 anchor.textContent = character.fullName;
-//                 // console.log(character.fullName);
-
-//                 favs.appendChild(anchor);
-//                 ul.appendChild(favs);
-//             }
-//         })
-//         .catch(error => {
-//             console.error("Error: ", error);
-//         });
-// }
-
-// fetchFavorites()
-
-// console.log(fetchFavorites)
