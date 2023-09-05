@@ -1,6 +1,4 @@
-.header {
-    border: 10px black solid;
-    color: red;
-    background-color: purple;
-    
+#character-gallery {
+    display: flex;
+    text-align: center;
 }
